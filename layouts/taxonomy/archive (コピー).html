@@ -1,0 +1,63 @@
+{{ define "main" }}
+<h3>アーカイブ：{{ .Title }}</h3>
+</pre>
+{{ range .Data.Pages }}
+<li>
+  <h3>
+    {{ if eq 4 (len .Title) }}年別：{{ else if eq 7 (len .Title) }}月別：{{ else if eq 10 (len .Title) }}日別：{{ end }}{{ .Title }}
+</h3>
+    <div class="date">{{ .Date.Format "2006.01.02 (Mon)" }}</div>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+</li>
+{{ end }}
+
+<ul>
+ {{ range .Pages }}
+
+ <li>
+	     <div class="blog-contents">
+   {{ if .Params.thumbnail }}
+
+		     <div class="image_box">
+
+           <a href="{{ .Permalink }}">
+
+
+               <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" style="object-fit: cover;width: 300px;height: 300px;" />
+
+
+               </div>
+           <div class="content_box">
+            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+             {{ partial "metadata.html" . }}
+{{ .Summary }}
+
+
+
+       </div>
+
+
+           {{else}}
+
+        <div class="content_box">
+         <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+
+<p>{{ .Summary }}</p>
+aaa
+{{ if .Truncated }}
+      <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+      <div>
+        <a href="{{ .RelPermalink }}">Read More…</a>
+      </div>
+      {{ end }}
+
+
+    </div>
+{{end}}
+ </div>
+    </li>
+
+
+  {{end}}
+</ul>
+{{end}}
