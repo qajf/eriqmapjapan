@@ -29,7 +29,7 @@ staticDir = ["static", "images", "img"]
  [[menu.main]]
     name = "about"
     pre = "about"
-    url = "about"
+    url = "/about/"
     weight = 3
 
 [taxonomies]
