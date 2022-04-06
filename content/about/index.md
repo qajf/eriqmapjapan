@@ -10,7 +10,9 @@ _build:
 こちらのブログは、「EriQmapJapan's Newsletter」から
 内容をお届けしています。
 
-[EriQmapJapan's Newsletter](https://eriqmapjapan.substack.com {:target="_blank"}"EriQmapJapan's Newsletter")
+[EriQmapJapan's Newsletter
+
+<a href="https://eriqmapjapan.substack.com" target="_blank">EriQmapJapan's Newsletter</a>
 
 ・Eriさんは日本人唯一のQmap翻訳者です。
 
