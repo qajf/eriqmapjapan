@@ -7,12 +7,19 @@ _build:
 
 ---
 
-EriQmapJapan 
+こちらのブログは、「EriQmapJapan's Newsletter」から
+内容をお届けしています。
 
-QAJF公式HP: https://qajf.github.io/ 
+[EriQmapJapan's Newsletter](https://eriqmapjapan.substack.com "EriQmapJapan's Newsletter")
 
-テレグラム: https://t.me/EriAndQmapJapan 
+・Eriさんは日本人唯一のQmap翻訳者です。
 
-Qmap日本語翻訳 https://qposts.in/japanese 
+EriQmapJapan
+
+QAJF公式HP: https://qajf.github.io/
+
+テレグラム: https://t.me/EriAndQmapJapan
+
+Qmap日本語翻訳 https://qposts.in/japanese
 
 https://qajf-qmapjapan-pub.officialblog.jp
